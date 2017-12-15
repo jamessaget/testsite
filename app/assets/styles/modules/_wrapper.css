@@ -9,7 +9,8 @@
   &--medium {
     max-width: 976px;
   }
-  
+ 
+ 
   &--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
