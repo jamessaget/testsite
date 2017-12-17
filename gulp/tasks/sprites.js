@@ -21,9 +21,9 @@ gulp.task('createSprite', function() {
 		.pipe(gulp.dest('./app/temp/sprite/'))
 });
 
-gulp.task('copySpriteGraphic', ['createSprite'],function() {
+gulp.task('copySpriteGraphic', ['createSprite'], function() {
 	return gulp.src('./app/temp/sprite/css/**/*.svg')
-	.pipe(gulp.dest('/app/assets/images/sprites'));
+	.pipe(gulp.dest('./app/assets/images/sprites'));
 });
 
 gulp.task('copySpriteCSS',['createSprite'], function(){
@@ -32,4 +32,4 @@ gulp.task('copySpriteCSS',['createSprite'], function(){
 		.pipe(gulp.dest('./app/assets/images/sprites'));
 });
 
-gulp.task('icons', ['createSprite', 'copySpriteCSS', 'copySpriteGraphic']);
+gulp.task('icons', ['createSprite', 'copySpriteGraphic','copySpriteCSS']);

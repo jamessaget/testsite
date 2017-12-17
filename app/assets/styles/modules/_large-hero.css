@@ -7,7 +7,7 @@
 	&__image {
 		display:block;
 	}
-
+	
 	&__text-content {	
 	position: absolute;
 	top:50% ;
@@ -30,7 +30,7 @@
 	
 	}	
 	
-
+	
 	&__subtitle {
 	font-weight:300;
 	color: $mainBlue;
