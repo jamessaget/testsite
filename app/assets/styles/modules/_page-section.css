@@ -12,7 +12,7 @@
       padding-bottom: 4.5rem;
     }
   }
-  
+
   &--no-b-padding-until-large {
     padding-bottom: 0;
 
@@ -20,7 +20,7 @@
       padding-bottom: 4.5rem;
     }
   }
-  
+
   &--blue {
     background-color: $mainBlue;
     color: #FFF;

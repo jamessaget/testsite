@@ -11,8 +11,7 @@
   &--last {
     margin-bottom: 0;
   }
- 
- 
+
   &__photo {
     border-radius: 80px;
     overflow: hidden;
